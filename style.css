@@ -1,0 +1,17 @@
+main{
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+}
+
+#navbar {
+  position: fixed;
+  grid-area: nav;
+  font-size: 20px;
+  background-color: #6f5f6f;
+}
+
+@media print { ... }
